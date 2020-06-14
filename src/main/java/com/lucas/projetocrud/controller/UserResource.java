@@ -1,4 +1,4 @@
-package com.lucas.projetocrud.resource;
+package com.lucas.projetocrud.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lucas.projetocrud.domain.User;
+import com.lucas.projetocrud.model.User;
 import com.lucas.projetocrud.service.UserService;
 
 @RestController
@@ -66,8 +66,5 @@ public class UserResource {
 		
 		return ResponseEntity.noContent().build();
 	}
-	
-	
-	
 
 }

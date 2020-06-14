@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.lucas.projetocrud.domain.User;
+import com.lucas.projetocrud.model.User;
 import com.lucas.projetocrud.repository.UserRepository;
 
 @Service

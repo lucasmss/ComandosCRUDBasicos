@@ -1,4 +1,4 @@
-package com.lucas.projetocrud.domain;
+package com.lucas.projetocrud.model;
 
 import java.io.Serializable;
 
@@ -71,6 +71,4 @@ public class User implements Serializable{
 			return false;
 		return true;
 	}
-	
-
 }
